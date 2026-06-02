@@ -1,0 +1,77 @@
+Home Page - Discipline presentation, showing what they'll learn; Including a CTA button to login/register
+Login/Register Page - Write your Name, RA and Password;
+Team - Create, join and manage your team. Everyone is administrator of their own team.
+Team/Project - Document each class separated in tabs (Class 1, Class 2, Class 3 etc) and a tab for the Final Project
+Team/Project - For each tab, you can see notes, add steps for each project, add observations in each step, add a failure for a step so you won't repeat it again, add a success and whats the expected result for the step. And a general conclusion and observations
+Team/Project - Final Project: Add needed tools and materials, attatch documents photos, and videos
+Team/Project - On each tab, show a checklist with the scientific method if applyable: Define hypothesis, Prepare materials, Perform experiment, Record results, Conclusion
+Teams (NOT MVP) - Showing all the teams along the way and their notes and final projects.
+
+Features:
+- Changes history like: Eduardo added a observation - 02/06/2026 18:15
+- Failure/Success register
+
+Authentication:
+- Name, RA (unique), password (salted and hashed), JWT Authentication
+
+Teams:
+- Create team
+- Add Team Name
+- Join team via invite code
+- Leave team
+- View team members
+- All members can manage the team
+
+Projects:
+   Tabs:
+      - Class 1
+      - Class 2
+      - Class 3
+      ...
+      - Final Project
+
+   Class Tab:
+      - Notes: Rich text notes
+      - Scientific Method Checklist: 
+         - Define hypothesis
+         - Prepare materials
+         - Perform experiment
+         - Record results
+         - Conclusion
+      - Steps:
+         - Each step has, title, description, expected, observations, failure register (1) and success register(2)
+         (1): 
+            Failure (E.G):
+               - Used incorrect measurement
+            Consequence (E.G):
+               - Results became inconsistent
+            How to avoid (E.G):
+               - Double check measurements before starting
+         (2):
+            Success (E.G):
+               - Changed variable X
+            Result (E.G):
+               - Experiment became reproducable
+            Why it worked (E.G):
+               - Reduced external interference
+      - General Conclusion:
+         - Conclusion
+         - Additional observations
+   Final Project:
+      - Materials:
+         - Tools
+         - Components
+         - Consumables
+      - Attatchments:
+         - PDFs
+         - Images (webp and optimized)
+         - Videos (youtube link)
+      - Final Report:
+         - Objective
+         - Methodology
+         - Results
+         - Conclusion
+
+Team Invite Code, generate a code so users can join the team by the code
+Auto-save
+Export project (NOT-MVP)
