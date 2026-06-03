@@ -49,8 +49,9 @@ export default function Form() {
                }}
             >
                {type === "register"
-                  ? "Já tenho uma conta"
-                  : "Ainda não tenho uma conta"}
+                  ? "Já tem uma conta?"
+                  : "Ainda não tem uma conta?"}
+               <span className="ml-1 text-blue-500 font-semibold">Clique aqui</span>
             </button>
          </form>
       </div>
